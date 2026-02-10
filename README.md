@@ -1,2 +1,2 @@
-# Dis-Pat-cher
-A PHP event driven dispatch system
+# Dis(Pat)cher
+An event driven dispatch system for PHP
