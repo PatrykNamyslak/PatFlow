@@ -29,7 +29,6 @@ class TestListener extends Listener{
 ```
 ### TestServiceProvider:
 ```PHP
-<?php
 namespace PatrykNamyslak\PatFlow\Demo;
 
 use PatrykNamyslak\PatFlow\Blueprints\ServiceProvider;
