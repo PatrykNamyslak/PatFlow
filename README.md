@@ -51,3 +51,7 @@ $serviceProvider = new TestServiceProvider(dispatcher: $dispatcher);
 $serviceProvider->register();
 $dispatcher->dispatch(new TestEvent(message: "Greetings My friend"));
 ```
+
+```
+OUTPUT: Event triggered! at: 1770753871.8842 and a message was left here it is: Greetings My friend
+```
