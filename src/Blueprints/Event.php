@@ -7,7 +7,7 @@ namespace PatrykNamyslak\PatFlow\Blueprints;
 abstract class Event{
     public readonly float $timestamp;
 
-    public final function __construct(public string $message){
+    public function __construct(){
         $this->timestamp = microtime(true);
         $this->boot();
     }
