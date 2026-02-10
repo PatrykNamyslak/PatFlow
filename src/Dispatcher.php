@@ -16,9 +16,9 @@ class Dispatcher{
         if (!is_subclass_of($eventClass, Event::class)) {
             throw new \InvalidArgumentException("{$eventClass} must extend the Event blueprint.");
         }
-        if (!is_subclass_of($listenerClass, Listener::class)) {
-            throw new \InvalidArgumentException("{$listenerClass} must extend the Listener blueprint.");
-        }
+        // if (!is_subclass_of($listenerClass, Listener::class)) {
+        //     throw new \InvalidArgumentException("{$listenerClass} must extend the Listener blueprint.");
+        // }
         $this->listeners[$eventClass][] = $listenerClass;
     }
 
