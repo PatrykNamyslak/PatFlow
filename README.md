@@ -40,6 +40,7 @@ class TestServiceProvider extends ServiceProvider{
     ];
 }
 ```
+## Usage
 ```PHP
 use PatrykNamyslak\PatFlow\Demo\TestEvent;
 use PatrykNamyslak\PatFlow\Demo\TestServiceProvider;
