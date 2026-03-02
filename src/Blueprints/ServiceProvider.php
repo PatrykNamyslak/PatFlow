@@ -27,10 +27,10 @@ abstract class ServiceProvider{
     ){}
 
     /**
-     * Register all event listeners defined in $listen array
+     * Register all event listeners defined in `$listen` array
      * @return void
      */
-    public final function register(){
+    public final function register(): void{
         foreach($this->listen as $event => $listeners){
             foreach($listeners as $listener){
                 $this->subscribe(eventClass: $event, listenerClass: $listener);

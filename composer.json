@@ -1,12 +1,15 @@
 {
     "name": "patryknamyslak/patflow",
     "description": "An event driven dispatch system for php",
-    "type": "paravel-library",
+    "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
             "PatrykNamyslak\\PatFlow\\": "src/"
-        }
+        },
+        "files": [
+            "src/functions.php"
+        ]
     },
     "authors": [
         {
